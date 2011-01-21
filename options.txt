@@ -1,0 +1,15 @@
+var options = jQuery.extend({
+	width: 300,
+	height: 300,
+	bcolor: "ffffff",
+	fcolor: "000000",
+	color: "e5e5e5",
+	padding: 10,
+	tools:{
+		pencil: true,
+		erase: true,
+		line: true,
+		box: true,
+		circle: true,
+	}
+},options);
