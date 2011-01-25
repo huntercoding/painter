@@ -1,0 +1,18 @@
+To install the painter into a page you need to put:
+
+<script type="text/javascript" src="[path]/painter/jquery/jquery.js"></script>
+<script type="text/javascript" src="[path]/painter/canvas.js"></script>
+<script type="text/javascript" src="[path]/painter/color.js"></script>
+<script type="text/javascript" src="[path]/painter/painter.js"></script>
+<link rel="stylesheet" type="text/css" href="[path]/painter/painter.css"></script
+
+Into the head of the page. Where [path] is the parent directory of the painter directory.
+You also have to put:
+
+<div id="[id]"></div>
+<script language="javascript">$('#[id]').painter([options]);</script>
+
+Into the body of the page where ever you want it to be. Where [id] is the id assigned to the 
+container, and [options] is the array of options you want to set.
+
+Please look at example.html
