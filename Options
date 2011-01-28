@@ -1,0 +1,15 @@
+width				(for best result minimum 300px)
+height			(for best result minimum 300px)
+fcolor			(default foreground color)
+bcolor			(default background color)
+tools{			(tools to allow or disable to disable set it to false)
+	pencil
+	eraser
+	line
+	circle
+	box
+}
+finetune{			(allows you to easily fix the offset bug)
+	x
+	y
+}

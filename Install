@@ -1,0 +1,12 @@
+In the page that you want to add the Painter into,
+add in the head:
+	
+	<script type="text/javascript" src="/painter/jquery/jquery.js"></script>
+	<script type="text/javascript" src="/painter/painter.js"></script>
+
+and add in the body:
+
+	<div id="painter"></div>
+	<script language="javascript">$('#painter').painter([options]);</script>
+
+Where [options] is the options that you wish to set.
