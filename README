@@ -1,6 +1,6 @@
 The Painter jQuery plug-in is an open-source image editing tool that isn't flash based.
 The plug-in is fully customizable from styling to tools allowed. The plugin uses jQuery
-and SVG support to edit images
+and SVG support to edit images.
 
 Version 1: Basic Drawing
 	Features:
